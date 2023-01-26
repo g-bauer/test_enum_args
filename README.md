@@ -25,6 +25,8 @@ cd docs
 make html
 ```
 
+When an enum default argument is used in `text_signature`, `make html` will crash.
+
 ## Problem
 
 When an enum is used as default argument withing PyO3's `text_signature`,
